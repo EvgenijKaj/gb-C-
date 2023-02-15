@@ -8,21 +8,16 @@ int n1 = 22;
 int n2 = 5;
 int n3 = 78;
 
-int max = 0;
-
-if ( n1 > max ) 
-{ 
-    max = n1;
-};
+int max = n1;
 
 if ( n2 > max ) 
 { 
-    max = n1;
+    max = n2;
 };
 
 if ( n3 > max ) 
 { 
-    max = n1;
+    max = n3;
 };
 
 Console.WriteLine(max);

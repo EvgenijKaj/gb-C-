@@ -6,11 +6,8 @@ Console.Write("Введите число: ");
 string? answeruser = Console.ReadLine();
 int numb = Convert.ToInt32(answeruser);
 
-Console.WriteLine("Вывод чётных чисел от 1 ", numb); // numb почему-то не выводится
-for ( int i = 1; i <= numb; i++)
+Console.WriteLine("Вывод чётных чисел от 1 до "+ numb);
+for ( int i = 2; i <= numb; i = i+2)
 {
-    if (i % 2 == 0)
-    {
         Console.WriteLine(i);
-    }
 }
