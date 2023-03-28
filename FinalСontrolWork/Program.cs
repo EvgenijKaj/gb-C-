@@ -28,5 +28,8 @@ void NewArray(string[] array)
 
 
 
-
+int lengthArray = 5;
+string[] myArray = GetConsoleArray(lengthArray);
+Console.WriteLine($"[{string.Join(", ", myArray)}]");
+NewArray(myArray);
 
